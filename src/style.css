@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto" sans-serif;
+}
+a {
+  text-decoration: none;
+  color: rgb(38, 37, 37);
+}
+li {
+  list-style: none;
+}
+.contaner .all-contaner .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 70px;
+}
+.contaner .all-contaner {
+  background-image: url("../image/Homepage-Model-3-Desktop-LHD-v2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contaner .all-contaner .navbar .nav-left {
+  width: 120px;
+  cursor: pointer;
+}
+.contaner .all-contaner .navbar .nav-center .nav-center-list {
+  display: flex;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  gap: 50px;
+}
+.contaner .all-contaner .navbar .nav-right .nav-right-list {
+  display: flex;
+  font-size: 1.5rem;
+  gap: 20px;
+}
+.contaner .all-contaner .head-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+  height: 80%;
+}
+.contaner .all-contaner .head-card .text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.contaner .all-contaner .head-card .number {
+  position: relative;
+  top: -10px;
+  left: -5px;
+  font-size: 1rem;
+}
+.contaner .all-contaner .head-card .btn-haed button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(86, 86, 86);
+  padding: 13px 100px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+}
+.contaner .all-contaner .head-card .btn-haed .older:hover {
+  background-color: rgb(189, 189, 189);
+}
+.contaner .all-contaner .head-card .btn-haed .drive {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.contaner .all-contaner .head-card .btn-haed .drive:hover {
+  background-color: rgb(59, 59, 59);
+}
+.contaner .all-contaner1 {
+  background-image: url("../image/Homepage-Model-S-Desktop-v2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contaner .all-contaner2 {
+  background-image: url("../image/Homepage-Model-X-Desktop-v2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contaner .all-contaner3 {
+  background-image: url("../image/Homepage-Model-Y-Desktop-Global.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contaner .all-contaner4 {
+  background-image: url("../image/Homepage-Cybertruck-Desktop.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contaner .all-contaner5 {
+  background-image: url("../image/Homepage-SolarPanels-01-Desktop.avif");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contaner .all-contaner6 {
+  background-image: url("../image/Homepage-SolarRoof-Desktop-Global.avif");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contaner .all-contaner7 {
+  background-image: url("../image/Homepage-Powerwall-01-Desktop.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contaner .all-contaner8 {
+  background-image: url("../image/Homepage-Accessories-Desktop-NA-APAC.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
